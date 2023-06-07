@@ -1,0 +1,33 @@
+// abstacts---------------------------
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// base-------------------------------
+@import "base/reset";
+@import "base/typography";
+
+//components--------------------------
+@import "copmonents/buttons";
+@import "copmonents/carousel";
+@import "copmonents/cover";
+@import "copmonents/dropdown";
+
+// layout-----------------------------
+@import "layout/footer";
+@import "layout/forms";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/sidebar";
+
+//pages-------------------------------
+@import "pages/home";
+
+//themes------------------------------
+@import "themes/admin";
+@import "themes/theme";
+
+//vendors-----------------------------
+@import "vendors/bootstrap"
+
+
