@@ -13,3 +13,12 @@ h2{
 p{
     font-size: 18px;
 }
+
+.visitor{
+    &__adress{
+        font-size: 15px;
+        color: $greyText;
+        line-height: 21.7px;
+        margin-right: 41px;
+}
+}

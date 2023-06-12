@@ -1,0 +1,106 @@
+.header{
+   
+    color: $colorWhite;
+
+    .bg-black{
+        background-color: $colorBlack;
+    }
+   
+    .visitor{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+
+        &__logo-img{
+            width: 194px;
+            height: 53px;
+            
+        }
+
+        &_phone{
+            font-size: 18px;
+            margin-left: 41px;
+        }
+
+        &__social-sets__link-whatsup{
+            margin-right: 5px;
+
+            img{
+                width: 42px;
+                height: 42px;
+                border-radius:50%;
+                transition: 0.8s linear background-color, transform ;
+
+            }
+
+            img:hover{
+                transform: scale(1.1);
+                background-color: $cherryLine;
+                border-radius: 50%;
+                transition: 0.8s linear background-color, transform;
+            }
+            
+        }
+
+        &__social-sets__link-telegramm{
+            img{
+                width: 42px;
+                height: 42px;
+                border-radius:50%;
+                transition: 0.8s linear background-color, transform ;  
+            }
+
+            img:hover{
+                transform: scale(1.1);
+                background-color: $cherryLine;
+                border-radius: 50%;
+                transition: 0.8s linear background-color, transform;
+            }
+        }
+       
+    }
+
+    .bg-white{
+        background-color: $colorWhite;
+        height: 80px;
+
+    }
+
+    .nav{
+        &__menyu{
+            display: flex;
+            width: 527px;
+            height: 80px;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+        &__item{
+            border-bottom: 2px $colorWhite solid;
+            transition: 0.4s linear border-bottom;
+        }
+
+
+        &__item:hover{
+            border-bottom: 2px $cherryLine solid;
+            transition: 0.4s linear border-bottom;
+        }
+
+
+
+
+
+
+
+        &__link{
+            font-size: 14px;
+            font-weight: 700;
+            color: $navText;
+            text-transform: uppercase;
+        }
+    }
+
+    
+    
+}

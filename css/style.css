@@ -7,6 +7,7 @@
 button {
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 ul {
@@ -31,6 +32,112 @@ h2 {
 
 p {
   font-size: 18px;
+}
+
+.visitor__adress {
+  font-size: 15px;
+  color: #B6B6B6;
+  line-height: 21.7px;
+  margin-right: 41px;
+}
+
+.visitor__button-btn {
+  font-size: 13px;
+  padding-top: 12px;
+  padding-right: 19px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+  background-color: inherit;
+  color: #ffffff;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  margin-left: 41px;
+  margin-right: 41px;
+  transition: 0.3s ease color;
+}
+.visitor__button-btn:hover {
+  border-color: #910A2D;
+  color: #910A2D;
+  transition: 0.3s ease color;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  color: #ffffff;
+}
+.header .bg-black {
+  background-color: #14141B;
+}
+.header .visitor {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.header .visitor__logo-img {
+  width: 194px;
+  height: 53px;
+}
+.header .visitor_phone {
+  font-size: 18px;
+  margin-left: 41px;
+}
+.header .visitor__social-sets__link-whatsup {
+  margin-right: 5px;
+}
+.header .visitor__social-sets__link-whatsup img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  transition: 0.8s linear background-color, transform;
+}
+.header .visitor__social-sets__link-whatsup img:hover {
+  transform: scale(1.1);
+  background-color: #910A2D;
+  border-radius: 50%;
+  transition: 0.8s linear background-color, transform;
+}
+.header .visitor__social-sets__link-telegramm img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  transition: 0.8s linear background-color, transform;
+}
+.header .visitor__social-sets__link-telegramm img:hover {
+  transform: scale(1.1);
+  background-color: #910A2D;
+  border-radius: 50%;
+  transition: 0.8s linear background-color, transform;
+}
+.header .bg-white {
+  background-color: #ffffff;
+  height: 80px;
+}
+.header .nav__menyu {
+  display: flex;
+  width: 527px;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav__item {
+  border-bottom: 2px #ffffff solid;
+  transition: 0.4s linear border-bottom;
+}
+.header .nav__item:hover {
+  border-bottom: 2px #910A2D solid;
+  transition: 0.4s linear border-bottom;
+}
+.header .nav__link {
+  font-size: 14px;
+  font-weight: 700;
+  color: #3C3C3C;
+  text-transform: uppercase;
 }
 
 @font-face {

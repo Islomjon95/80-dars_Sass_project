@@ -1,0 +1,28 @@
+.visitor{
+    &__button-btn{
+        font-size: 13px;
+        padding: {
+            top: 12px;
+            right: 19px;
+            bottom: 12px;
+            left: 18px;
+            
+        };
+        background-color: inherit;
+        color: $colorWhite;
+        font-weight: 700;
+        border: 1px solid rgba($color: #FFFFFF, $alpha: 0.3);
+        border-radius: 3px;
+        margin: {
+            left: 41px;
+            right: 41px;
+        }
+        transition: 0.3s ease color;
+    }
+    &__button-btn:hover{
+        border-color: $cherryLine;
+        color: $cherryLine;
+        transition: 0.3s ease color;
+    }
+
+}
